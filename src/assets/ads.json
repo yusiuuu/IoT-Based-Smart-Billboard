@@ -1,0 +1,8 @@
+[
+    { "id": 1, "type": "video", "url": "/ads/hot_drink.mp4", "weather": "hot" },
+    { "id": 2, "type": "video", "url": "/ads/dehumidifier.mp4", "weather": "hot" },
+    { "id": 3, "type": "video", "url": "/ads/cold_classroom.mp4", "weather": "cold" },
+    { "id": 4, "type": "video", "url": "/ads/noise_cancel.mp4", "weather": "moderate" },
+    { "id": 5, "type": "video", "url": "/ads/default1.mp4", "weather": "moderate" }
+  ]
+  
