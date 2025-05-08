@@ -57,12 +57,13 @@ IoT-Based-Smart-Billboard/
 
 ## 🕒 Timeline
 
-- Built and tested over a 10-day development sprint during training.
+- Built and tested over a 5-day development sprint during training.
 
 ## 📌 Notes
 
 - Designed for smart city environments, shopping malls, and public transit spaces.
 - System ensures minimal energy usage by being idle when no one is nearby.
+- Supports future integration of AI for intelligent ad selection and optimization.
 
 ## 📜 License
 
