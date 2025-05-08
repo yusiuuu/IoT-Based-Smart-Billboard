@@ -19,15 +19,52 @@ An intelligent advertising system built as part of the **Samsung Innovation Camp
 - **Cloud**: Cloudinary (ad storage and delivery)
 - **AI Logic**: Ad selection rules based on sensor inputs
 
-## 📦 Folder Structure
+```markdown
+## 📁 Project Structure
 
-Smart_Billboard/
+```plaintext
+IoT-Based-Smart-Billboard/
 ├── backend/
-│ └── main.py # Sensor data processing and ad selection logic
+│   ├── app.py
+│   └── requirements.txt
 ├── frontend/
-│ └── display.py # Code to render selected video ad
+│   ├── index.html
+│   └── style.css
+├── sensors/
+│   ├── dht11_sensor.py
+│   ├── motion_detector.py
+│   └── sound_level.py
 ├── media/
-│ └── sample_ads/ # Local sample ad files
-├── cloud/
-│ └── cloudinary_config.py # Cloudinary integration settings
-└── README.md
+│   └── ads/
+│       ├── hot_weather_ad.mp4
+│       └── cold_weather_ad.mp4
+├── utils/
+│   └── cloudinary_uploader.py
+├── README.md
+└── structure.txt
+---
+
+
+## 🔄 Workflow
+
+1. Raspberry Pi reads data from sensors in real-time.
+2. AI logic processes sensor data to determine the most appropriate ad.
+3. Relevant ad is fetched from Cloudinary.
+4. Video is played on the connected screen only when motion is detected.
+
+## 👨‍💻 Team
+
+- Developed by a team of 3 as a capstone project under **Samsung Innovation Campus IoT Training 2025**.
+
+## 🕒 Timeline
+
+- Built and tested over a 10-day development sprint during training.
+
+## 📌 Notes
+
+- Designed for smart city environments, shopping malls, and public transit spaces.
+- System ensures minimal energy usage by being idle when no one is nearby.
+
+## 📜 License
+
+Developed for academic and non-commercial use as part of Samsung Innovation Campus.
