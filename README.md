@@ -42,8 +42,7 @@ IoT-Based-Smart-Billboard/
 │   └── cloudinary_uploader.py
 ├── README.md
 └── structure.txt
----
-
+```
 
 ## 🔄 Workflow
 
